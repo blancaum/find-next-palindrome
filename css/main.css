@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url('../images/background3.jpg');
+    background-size: cover;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.762);
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 12px;
+}
+
+.link {
+    color: #657874;
+}
+
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+
