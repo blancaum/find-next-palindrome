@@ -43,7 +43,7 @@ function handleClick() {
     result.innerHTML = 'Please enter a valid number';
   }
 
-  if (number >= 0) {
+  if (number >= 0 && number != null) {
     result.innerHTML = `The next palindrome is ${nextPalindromeString}.`;
   } else {
     result.innerHTML = 'Please enter a valid number.';
